@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Compound Interest</title>
+    <link rel="stylesheet" href="ci.css">
+</head>
+<body>
+	<label>Principle</label><br>
+	<input type="number" name="val" id="principle" placeholder="Principle">
+	<br>
+	<label>Rate of Interest</label><br>
+	<input type="number" name="val" id="roi" placeholder="Rate of the interest">
+	<br>
+	<label>Years</label><br>
+	<input type="number" name="val" id="years" placeholder="Years">
+	<br>
+    <br>
+	<button id="calculate_button" onclick="countCI()">Calculate</button>
+	<br>
+	<div id="outputdiv">
+		<label>Compound Interest is :  <span id="outputspan"></span></label>
+	</div>
+	<script type="text/javascript" src="ci.js"></script>
+</body>
+</html>
